@@ -35,6 +35,14 @@ Python
 
 The application works on a per-organization level, meaning the system will produce KPIs specific to a single organization. The security of this software depends on a user's access to the Spare platform, as the API key required to complete the report will be generated from the organization's settings page, under API keys. 
 
+### Launching From Local Device
+
+If you wish to run the application from you local machine here are the steps:
+
+    1. Clone the QGR repository onto your computer using Git
+    2. Once on local machine, navigate to the folder within your terminal screen (drag and drop the folder from finder onto the terminal window and press enter)
+    3. Run 'pip install requirements.txt' to download the required dependancies
+    4. Run 'streamlit run QGR.py' to begin the session, here the program will automatically generate a new chrome tab that holds the web application.
 #### Required Inputs
 
 *API Key* 
